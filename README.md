@@ -11,8 +11,7 @@ Generate OCP complaint MachineConfigs from RHEL Entitlements Certificates
 ## Overview
 
 `ocpnv` pronounced OCP-N-V (OCP Envy) is a very basic program to convert a downloaded zip file from access.redhat.com
-into MachineConfig yaml for OpenShift to enable RHEL & UBI base images access to 
-additional repos.
+into MachineConfig yaml for OpenShift to enable RHCOS access to additional repos.
 
 ## Installation
 
