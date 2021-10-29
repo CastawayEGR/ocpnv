@@ -27,7 +27,7 @@ $ ocpnv -f downloaded_entitlements.zip > template.yaml
 $ oc create -f template.yaml
 
 # Create and import MachineConfig in one shot
-$ ocpnv -f downloaded_entitlements | oc create -f -
+$ ocpnv -f downloaded_entitlements.zip | oc create -f -
 ```
 
 ## Contributing
