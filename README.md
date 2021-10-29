@@ -25,6 +25,9 @@ $ ocpnv -f downloaded_entitlements.zip > template.yaml
 
 # Import into your OpenShift cluster
 $ oc create -f template.yaml
+
+# Create and import MachineConfig in one shot
+$ ocpnv -f downloaded_entitlements | oc create -f -
 ```
 
 ## Contributing
